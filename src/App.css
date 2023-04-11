@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .App {
   text-align: center;
 }
@@ -35,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  font-family: 'Poppins', 'open sans' !important; 
+  background-image: url(../src/img/BluePurpbknd.png); 
+  background-position: 50% 50%;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+    background-image: url(../src/img/BluePurpMobile.png) !important;
+    background-color: rgba(0, 0, 0, 0.3);
+    }
 }
