@@ -1,33 +1,30 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faTwitter,
-  faInstagram,
-  faSpotify,
-  faYoutube,
-  faWhatsapp
+    faTwitter,
+    faInstagram,
+    faSpotify,
+    faYoutube,
+    faWhatsapp
 } from "@fortawesome/free-brands-svg-icons";
 import {
-  BackgroundMobile,
-  BackgroundDesktop,
-  logo,
-  logoITERA,
-  logoKM
+    logoITERA,
+    logoKM
 } from './img/index'
 import './App.css';
 import './index.css';
 
 export default function App() {
-  return (
+    return (
     <div className="App flex items-center flex-col my-5">
 
         <div className="w-full relative flex justify-between px-10 min-[800px]:px-28 items-center py-4">
             <a href="http://itera.ac.id " target="_blank" rel="noreferrer">
-                <img src={logoITERA} className="w-12 min-[800px]:w-20 rounded-full" alt='logoITERA'/>
+                <img src={logoITERA} className="w-12 min-[800px]:w-20 rounded-full shadow shadow-goldish hover:animate-pulse" alt='logoITERA'/>
             </a>
             <p className="text-goldish text-lg min-[800px]:text-2xl text-center">Kabinet Wangsabatih</p>
             <a href="http://km.itera.ac.id" target="_blank" rel="noreferrer">
-                <img src={logoKM} className="w-12 min-[800px]:w-20 rounded-full" alt='logoKM'/>
+                <img src={logoKM} className="w-12 min-[800px]:w-20 rounded-full shadow shadow-goldish hover:animate-pulse" alt='logoKM'/>
             </a>
         </div>
 
@@ -88,7 +85,10 @@ export default function App() {
             <div id="accordion-flush-body-1" className="hidden" aria-labelledby="accordion-flush-heading-1">
                 <div className="py-5 border-b border-goldish text-start">
                     <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
-                    Kegiatan yang rutin diadakan setiap tahun tersebut menjadi bentuk penyambutan mahasiswa baru ITERA, sekaligus ajang pengenalan lingkungan kampus, mulai dari kegiatan akademik, fasilitas dan lingkungan kampus, hingga kegiatan kemahasiswaan.
+                    PPLK atau Program Pengenalan Lingkungan Kampus adalah program yang dilaksanakan untuk para mahasiswa baru yang merupakan wadah pengenalan awal bagi mahasiswa baru terhadap berbagai aspek kehidupan di perguruan tinggi meliputi sarana dan prasarana, fasilitas kampus, teman baru, dan sebagainya. 
+                    </p>
+                    <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
+                    Dengan ini, PPLK ITERA bertujuan sebagai penentu arah gerak perkembangan karakter bagi setiap mahasiswa baru dan sebagai tempat mahasiswa baru untuk dapat mengenali potensi diri, memberikan motivasi dan semangat, serta menanamkan perilaku positif kepada mahasiswa baru.
                     </p>
                     <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
                         Lakukan pendaftaran pada link berikut    
