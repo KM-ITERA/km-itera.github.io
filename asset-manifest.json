@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/linktree/static/css/main.257c54d5.css",
-    "main.js": "/linktree/static/js/main.63a625c1.js",
+    "main.css": "/linktree/static/css/main.610e1deb.css",
+    "main.js": "/linktree/static/js/main.e21b0346.js",
     "static/js/787.55f350d7.chunk.js": "/linktree/static/js/787.55f350d7.chunk.js",
     "static/media/BluePurpMobile.png": "/linktree/static/media/BluePurpMobile.a8c29eaf9698b5754acc.png",
     "static/media/BluePurpbknd.png": "/linktree/static/media/BluePurpbknd.f455c8f39b7774949a7d.png",
@@ -9,12 +9,12 @@
     "static/media/logoKM_320x320.png": "/linktree/static/media/logoKM_320x320.d3c397a4cfae7a36d2d2.png",
     "static/media/logoItera_320x320.png": "/linktree/static/media/logoItera_320x320.74608362f7818e7ad70a.png",
     "index.html": "/linktree/index.html",
-    "main.257c54d5.css.map": "/linktree/static/css/main.257c54d5.css.map",
-    "main.63a625c1.js.map": "/linktree/static/js/main.63a625c1.js.map",
+    "main.610e1deb.css.map": "/linktree/static/css/main.610e1deb.css.map",
+    "main.e21b0346.js.map": "/linktree/static/js/main.e21b0346.js.map",
     "787.55f350d7.chunk.js.map": "/linktree/static/js/787.55f350d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.257c54d5.css",
-    "static/js/main.63a625c1.js"
+    "static/css/main.610e1deb.css",
+    "static/js/main.e21b0346.js"
   ]
 }
