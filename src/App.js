@@ -62,6 +62,14 @@ export default function App() {
             </a>
         </div>
         <div className="py-2 w-4/5 justify-center flex">
+            <a href="https://wa.me/6281286216233" target="_blank" className="w-3/5 max-[450px]:w-full justify-center flex" rel="noreferrer">
+                <button className="w-full transition-all bg-transparent hover:bg-goldish hover:shadow-slate-100 hover:shadow-md hover:-translate-y-2 text-goldish font-semibold hover:text-slate-900 py-2 px-4 border border-goldish hover:border-transparent rounded">
+                    <FontAwesomeIcon icon={faWhatsapp} className="px-2"/>
+                    Advokesma (Sabrina)
+                </button>
+            </a>
+        </div>
+        <div className="py-2 w-4/5 justify-center flex">
             <a href="https://wa.me/6287818874228" target="_blank" className="w-3/5 max-[450px]:w-full justify-center flex" rel="noreferrer">
                 <button className="w-full transition-all bg-transparent hover:bg-goldish hover:shadow-slate-100 hover:shadow-md hover:-translate-y-2 text-goldish font-semibold hover:text-slate-900 py-2 px-4 border border-goldish hover:border-transparent rounded">
                     <FontAwesomeIcon icon={faWhatsapp} className="px-2"/>
@@ -204,10 +212,41 @@ export default function App() {
                 </div>
             </div>
 
+            <h2 id="accordion-flush-heading-5">
+                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-400 border-b border-goldish" data-inactive-classes="text-gray-600" data-accordion-target="#accordion-flush-body-5" aria-expanded="false" aria-controls="accordion-flush-body-5">
+                    <span className="px-3">
+                        Open Recruitment Ketua Pelaksana Duta Itera 2023 <p className="text-goldish">COMING SOON...</p>
+                    </span>
+                    <svg data-accordion-icon className="w-6 h-6 shrink-0 mx-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+            </h2>
+            <div id="accordion-flush-body-5" className="hidden" aria-labelledby="accordion-flush-heading-5">
+                <div className="py-5 border-b border-goldish text-start">
+                    <p className="mb-2 text-gray-400 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
+                        Stay Tune Sobat KM....
+                    </p>
+                    {/* <p className="mb-2 text-gray-400 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
+                        Lakukan pendaftaran pada link berikut    
+                    </p> */}
+                    <span className="text-gray-400 flex flex-row items-center">
+                        <a href="https://km-itera.github.io/linktree" className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
+                            <button disabled className="w-full max-sm:text-sm bg-transparent disabled:opacity-40 text-goldish font-semibold hover:text-slate-900 mt-2 py-2 px-4 max-sm:px-1 border border-goldish hover:border-transparent rounded">
+                                Daftar
+                            </button>
+                        </a> 
+                        <a href="https://km-itera.github.io/linktree" className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
+                            <button disabled className="w-full max-sm:text-sm bg-transparent disabled:opacity-40 text-goldish font-semibold hover:text-slate-900 mt-2 py-2 px-4 max-sm:px-1 border border-goldish hover:border-transparent rounded">
+                                Syarat
+                            </button>
+                        </a> 
+                    </span>
+                </div>
+            </div>
+
         </div>
         </div>
         {/* <!-- End Accordion --> */}
     </div>
 
-  );
+    );
 }
