@@ -85,7 +85,7 @@ export default function App() {
             <h2 id="accordion-flush-heading-1">
                 <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-goldish border-b border-goldish" data-accordion-target="#accordion-flush-body-1" aria-expanded="false" aria-controls="accordion-flush-body-1">
                     <span className="px-3">
-                        Open Recruitment Ketua Pelaksana PPLK 2023
+                        Open Recruitment Ketua Pelaksana PPLK 2023 <p className="text-goldish">14 - 18 April 2023</p>
                     </span>
                     <svg data-accordion-icon className="w-6 h-6 shrink-0 mx-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>
@@ -119,7 +119,7 @@ export default function App() {
             <h2 id="accordion-flush-heading-2">
                 <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-goldish border-b border-goldish" data-inactive-classes="text-gray-600" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
                     <span className="px-3">
-                        Open Recruitment Ketua Pelaksana LKMM-TD 2023
+                        Open Recruitment Ketua Pelaksana LKMM-TD 2023 <p className="text-goldish">14 - 18 April 2023</p>
                     </span>
                     <svg data-accordion-icon className="w-6 h-6 shrink-0 mx-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>
