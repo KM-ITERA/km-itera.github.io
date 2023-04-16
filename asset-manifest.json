@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/linktree/static/css/main.a4087516.css",
-    "main.js": "/linktree/static/js/main.ab9ed449.js",
+    "main.js": "/linktree/static/js/main.dfeaca05.js",
     "static/js/787.55f350d7.chunk.js": "/linktree/static/js/787.55f350d7.chunk.js",
     "static/media/KM_logo.png": "/linktree/static/media/KM_logo.20edcd1314fa881aa293.png",
     "static/media/BluePurpMobile.webp": "/linktree/static/media/BluePurpMobile.4810815b99577e7ed896.webp",
@@ -10,11 +10,11 @@
     "static/media/logoItera_320x320.png": "/linktree/static/media/logoItera_320x320.74608362f7818e7ad70a.png",
     "index.html": "/linktree/index.html",
     "main.a4087516.css.map": "/linktree/static/css/main.a4087516.css.map",
-    "main.ab9ed449.js.map": "/linktree/static/js/main.ab9ed449.js.map",
+    "main.dfeaca05.js.map": "/linktree/static/js/main.dfeaca05.js.map",
     "787.55f350d7.chunk.js.map": "/linktree/static/js/787.55f350d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4087516.css",
-    "static/js/main.ab9ed449.js"
+    "static/js/main.dfeaca05.js"
   ]
 }
