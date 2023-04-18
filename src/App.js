@@ -102,7 +102,7 @@ export default function App() {
                         Lakukan pendaftaran pada link berikut    
                     </p>
                     <span className="text-gray-300 flex flex-row items-center">
-                        <a href="https://bit.ly/PendaftaranKetuaPelaksanaPPLK2023" className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
+                        <a href="https://bit.ly/OpenRecruitmentKetuaPelaksanaPPLK2023" className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
                             <button className="w-full max-sm:text-sm bg-transparent hover:bg-goldish text-goldish font-semibold hover:text-slate-900 mt-2 py-2 px-4 max-sm:px-1 border border-goldish hover:border-transparent rounded">
                                 Daftar
                             </button>
