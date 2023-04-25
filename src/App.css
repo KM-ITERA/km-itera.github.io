@@ -48,6 +48,7 @@
 @media screen and (max-width: 600px) {
   #container {
     background-image: url(../src/img/BluePurpMobile.webp) !important;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(39, 29, 83, 0.445);
+    background-position: 50% 50%;
     }
 }
