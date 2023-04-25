@@ -39,16 +39,15 @@
   }
 }
 
-body{
+#container{
   font-family: 'Poppins', 'open sans' !important; 
   background-image: url(../src/img/BluePurpbknd.webp); 
-  background-position: 50% 50%;
+  background-position: 100% 100%;
 }
 
 @media screen and (max-width: 600px) {
-  body {
+  #container {
     background-image: url(../src/img/BluePurpMobile.webp) !important;
     background-color: rgba(0, 0, 0, 0.3);
-    background-position: 0% 0%;
     }
 }

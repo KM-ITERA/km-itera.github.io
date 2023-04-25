@@ -16,15 +16,15 @@ import './index.css';
 
 export default function App() {
     return (
-    <div className="App flex items-center flex-col my-5">
-
+    <div className="App flex items-center flex-col py-5 bg-slate-800 bg-no-repeat bg-fixed bg-cover" id='container'>
+        
         <div className="w-full relative flex justify-between px-10 min-[800px]:px-28 items-center py-4">
             <a href="http://itera.ac.id " target="_blank" rel="noreferrer">
-                <img src={logoITERA} className="w-12 min-[800px]:w-20 rounded-full shadow shadow-goldish hover:animate-pulse" alt='logoITERA'/>
+                <img src={logoITERA} className="w-12 min-[800px]:w-20 rounded-full shadow shadow-goldish hover:animate-pulse" alt='logoITERA' draggable="false"/>
             </a>
-            <p className="text-goldish text-lg min-[800px]:text-2xl text-center">Kabinet Wangsabatih</p>
+            <p className="text-goldish text-lg min-[800px]:text-2xl text-center font-bold">Kabinet Wangsabatih</p>
             <a href="http://km.itera.ac.id" target="_blank" rel="noreferrer">
-                <img src={logoKM} className="w-12 min-[800px]:w-20 rounded-full shadow shadow-goldish hover:animate-pulse" alt='logoKM'/>
+                <img src={logoKM} className="w-12 min-[800px]:w-20 rounded-full shadow shadow-goldish hover:animate-pulse" alt='logoKM' draggable="false"/>
             </a>
         </div>
 
@@ -85,7 +85,7 @@ export default function App() {
             <h2 id="accordion-flush-heading-1">
                 <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-goldish border-b border-goldish" data-accordion-target="#accordion-flush-body-1" aria-expanded="false" aria-controls="accordion-flush-body-1">
                     <span className="px-3">
-                        Open Recruitment Ketua Pelaksana PPLK 2023 <p className="text-goldish">14 - 18 April 2023</p>
+                        Open Recruitment Ketua Pelaksana Itera Open 2023 <p className="text-goldish">26 - 30 April 2023</p>
                     </span>
                     <svg data-accordion-icon className="w-6 h-6 shrink-0 mx-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>
@@ -93,21 +93,28 @@ export default function App() {
             <div id="accordion-flush-body-1" className="hidden" aria-labelledby="accordion-flush-heading-1">
                 <div className="py-5 border-b border-goldish text-start">
                     <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
-                    PPLK atau Program Pengenalan Lingkungan Kampus adalah program yang dilaksanakan untuk para mahasiswa baru yang merupakan wadah pengenalan awal bagi mahasiswa baru terhadap berbagai aspek kehidupan di perguruan tinggi meliputi sarana dan prasarana, fasilitas kampus, teman baru, dan sebagainya. 
+                    ITERA OPEN merupakan pesta olahraga yang diselenggarakan oleh Institut Teknologi 
+                    Sumatera, dengan menargetkan mahasiswa dan mahasiswi dari perguruan tinggi yang ada di 
+                    wilayah lampung dan sumatera, untuk turut serta berpartisipasi di dalam kompetisi.
+                    Kegiatan hadir sebagai salah satu upaya memperkenalkan kampus Institut Teknologi Sumatera sebagai
+                    kampus muda yang mendukung penuh keolahragaan.
                     </p>
                     <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
-                    Dengan ini, PPLK ITERA bertujuan sebagai penentu arah gerak perkembangan karakter bagi setiap mahasiswa baru dan sebagai tempat mahasiswa baru untuk dapat mengenali potensi diri, memberikan motivasi dan semangat, serta menanamkan perilaku positif kepada mahasiswa baru.
+                    Dengan ini, ITERA OPEN diharapkan dapat menjadi momentum dalam menjalin tali
+                    silaturahmi serta ajang kompetisi antarkampus, yang diharapkan dapat membawa nama baik
+                    dan citra kampus masing-masing dengan menjunjung tinggi nilai sportifitas dan
+                    profesionalitas selama berkompetisi.
                     </p>
                     <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
                         Lakukan pendaftaran pada link berikut    
                     </p>
                     <span className="text-gray-300 flex flex-row items-center">
-                        <a href="https://bit.ly/OpenRecruitmentKetuaPelaksanaPPLK2023" className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
+                        <a href="https://bit.ly/pendaftaranketuplakITERAOPEN2023" target='_blank' rel='noreferrer' className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
                             <button className="w-full max-sm:text-sm bg-transparent hover:bg-goldish text-goldish font-semibold hover:text-slate-900 mt-2 py-2 px-4 max-sm:px-1 border border-goldish hover:border-transparent rounded">
                                 Daftar
                             </button>
                         </a> 
-                        <a href="https://bit.ly/SyaratdanKetentuanKetuaPelaksanaPPLK2023" className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
+                        <a href="https://bit.ly/SyaratdanKetentuanCalonKetuaPelaksanaITERAOPEN2023" target='_blank' rel='noreferrer' className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
                             <button className="w-full max-sm:text-sm bg-transparent hover:bg-goldish text-goldish font-semibold hover:text-slate-900 mt-2 py-2 px-4 max-sm:px-1 border border-goldish hover:border-transparent rounded">
                                 Syarat
                             </button>
@@ -119,7 +126,7 @@ export default function App() {
             <h2 id="accordion-flush-heading-2">
                 <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-goldish border-b border-goldish" data-inactive-classes="text-gray-600" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
                     <span className="px-3">
-                        Open Recruitment Ketua Pelaksana LKMM-TD 2023 <p className="text-goldish">14 - 18 April 2023</p>
+                        Open Recruitment Ketua Pelaksana Liga Ilmiah Itera (LITERA) 2023 <p className="text-goldish">28 - 30 April 2023</p>
                     </span>
                     <svg data-accordion-icon className="w-6 h-6 shrink-0 mx-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>
@@ -127,21 +134,28 @@ export default function App() {
             <div id="accordion-flush-body-2" className="hidden" aria-labelledby="accordion-flush-heading-2">
                 <div className="py-5 border-b border-goldish text-start">
                     <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
-                    LKMM-TD (Latihan Keterampilan Manajemen Mahasiswa Tingkat Dasar) merupakan suatu wadah bagi para mahasiswa untuk melatih pengetahuan akan manajemen suatu kegiatan dengan terstruktur dan sistematis. Didalamnya terdapat sebanyak 14 kegiatan dan materi yang akan diberikan bagi para peserta. 
+                    LITERA atau Liga Ilmiah ITERA merupakan suatu ajang perlombaan ilmiah terbesar yang
+                    dilaksanakan oleh Kementerian Pendidikan, Riset, dan Teknologi Kabinet Wangsabatih KMITERA pada tahun ini. LITERA dilaksanakan sebagai kegiatan kompetisi keilmiahan di
+                    lingkungan kampus ITERA yang bertujuan dalam menumbuhkan rasa berpikir kritis serta
+                    jiwa kompetitif pada mahasiswa/i di ITERA dan yang diakhiri oleh acara puncak berupa
+                    Malam Apresiasi bagi seluruh peserta LITERA. 
                     </p>
                     <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">                        
-                    Setiap materi pula akan dibimbing oleh seorang pemandu yang telah mengalami proses pelatihan terlebih dahulu dan juga oleh seorang penceramah baik dari mahasiswa ITERA, dosen ITERA ataupun tamu undangan dari luar kampus. Setiap peserta yang telah lulus LKMM-TD akan menerima sertifikat kelulusan dan dapat lanjut mengikuti LKMM-TM (Tingkat Menengah).
+                    LITERA tidak hanya bertujuan untuk menjadi tempat para mahasiswa/i ITERA dalam
+                    meningkatkan kemampuan kognitif namun juga dapat menjadi tempat silaturahmi serta
+                    mengembangkan menjalin rasa kekeluargaan bagi mahasiswa/i dari berbagai program studi di
+                    ITERA.
                     </p>
                     <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
                         Lakukan pendaftaran pada link berikut    
                     </p>
                     <span className="text-gray-300 flex flex-row items-center">
-                        <a href="https://bit.ly/PendaftaranCalonKetuaPelaksanaLKMMTD3Itera2023" className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZUiocZti98PYrYZ3dqNeCHGY9ch8nWAxco4PlGCt7KJGkw/formResponse" target='_blank' rel='noreferrer' className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
                             <button className="w-full max-sm:text-sm bg-transparent hover:bg-goldish text-goldish font-semibold hover:text-slate-900 mt-2 py-2 px-4 max-sm:px-1 border border-goldish hover:border-transparent rounded">
                                 Daftar
                             </button>
                         </a> 
-                        <a href="https://bit.ly/SyaratKetentuanKetuaPelaksanaLKMMTD3Itera2023" className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
+                        <a href="https://drive.google.com/drive/folders/1pEOCA_eEs6cmfIsxZkNQg8rT47QSS-wU" target='_blank' rel='noreferrer' className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
                             <button className="w-full max-sm:text-sm bg-transparent hover:bg-goldish text-goldish font-semibold hover:text-slate-900 mt-2 py-2 px-4 max-sm:px-1 border border-goldish hover:border-transparent rounded">
                                 Syarat
                             </button>
@@ -153,7 +167,7 @@ export default function App() {
             <h2 id="accordion-flush-heading-3">
                 <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-400 border-b border-goldish" data-inactive-classes="text-gray-600" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
                     <span className="px-3">
-                        Open Recruitment Ketua Pelaksana Liga Ilmiah Itera (LITERA) 2023 <p className="text-goldish">COMING SOON...</p>
+                        Open Recruitment Ketua Pelaksana PPLK 2023 <p className="text-goldish">CLOSED...</p>
                     </span>
                     <svg data-accordion-icon className="w-6 h-6 shrink-0 mx-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>
@@ -184,7 +198,7 @@ export default function App() {
             <h2 id="accordion-flush-heading-4">
                 <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-400 border-b border-goldish" data-inactive-classes="text-gray-600" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
                     <span className="px-3">
-                        Open Recruitment Ketua Pelaksana Itera Open 2023 <p className="text-goldish">COMING SOON...</p>
+                        Open Recruitment Ketua Pelaksana LKMM-TD 2023 <p className="text-goldish">CLOSED...</p>
                     </span>
                     <svg data-accordion-icon className="w-6 h-6 shrink-0 mx-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </button>
