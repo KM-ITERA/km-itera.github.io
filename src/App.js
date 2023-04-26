@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faTwitter,
     faInstagram,
@@ -11,14 +10,47 @@ import {
     logoITERA,
     logoKM
 } from './img/index'
-import AccordionList from './components/accordionList';
+// import AccordionList from './components/accordionList';
+import { AccordionList, BtnList } from './components/index';
 import './App.css';
 import './index.css';
 
+const listed = [
+    {
+        "link": "https://twitter.com/km_itera",
+        "icon": faTwitter,
+        "tittle": "Twitter"
+    },
+    {
+        "link": "https://instagram.com/km_itera",
+        "icon": faInstagram,
+        "tittle": "Instagram"
+    },
+    {
+        "link": "https://youtube.com/@KMITERA",
+        "icon": faYoutube,
+        "tittle": "Youtube"
+    },
+    {
+        "link": "https://spotify.link/HBLxo56aUyb",
+        "icon": faSpotify,
+        "tittle": "Spotify"
+    },
+    {
+        "link": "https://wa.me/6281286216233",
+        "icon": faWhatsapp,
+        "tittle": "Advokesma (Sabrina)"
+    },
+    {
+        "link": "https://wa.me/6287818874228",
+        "icon": faWhatsapp,
+        "tittle": "Narahubung (Moza)"
+    },
+];
 const items = [
     {
         "judul": "ITERA Open", 
-        "tanggal": "25 - 30 April 2023", 
+        "tanggal": "26 - 30 April 2023", 
         "details1": 'ITERA OPEN merupakan pesta olahraga yang diselenggarakan oleh Institut Teknologi Sumatera, dengan menargetkan mahasiswa dan mahasiswi dari perguruan tinggi yang ada di wilayah lampung dan sumatera, untuk turut serta berpartisipasi di dalam kompetisi. Kegiatan hadir sebagai salah satu upaya memperkenalkan kampus Institut Teknologi Sumatera sebagai kampus muda yang mendukung penuh keolahragaan.',
         "details2": 'Dengan ini, ITERA OPEN diharapkan dapat menjadi momentum dalam menjalin tali silaturahmi serta ajang kompetisi antarkampus, yang diharapkan dapat membawa nama baik dan citra kampus masing-masing dengan menjunjung tinggi nilai sportifitas dan profesionalitas selama berkompetisi.',
         "daftar": "https://bit.ly/pendaftaranketuplakITERAOPEN2023",
@@ -27,12 +59,30 @@ const items = [
     },
     {
         "judul": "Liga Ilmiah ITERA (LITERA)",
-        "tanggal": "28 - 30 April 2023",
+        "tanggal": "28 April - 2 Mei 2023",
         "details1":"LITERA atau Liga Ilmiah ITERA merupakan suatu ajang perlombaan ilmiah terbesar yang dilaksanakan oleh Kementerian Pendidikan, Riset, dan Teknologi Kabinet Wangsabatih KMITERA pada tahun ini. LITERA dilaksanakan sebagai kegiatan kompetisi keilmiahan di lingkungan kampus ITERA yang bertujuan dalam menumbuhkan rasa berpikir kritis serta jiwa kompetitif pada mahasiswa/i di ITERA dan yang diakhiri oleh acara puncak berupa Malam Apresiasi bagi seluruh peserta LITERA.",
         "details2": "LITERA tidak hanya bertujuan untuk menjadi tempat para mahasiswa/i ITERA dalam meningkatkan kemampuan kognitif namun juga dapat menjadi tempat silaturahmi serta mengembangkan menjalin rasa kekeluargaan bagi mahasiswa/i dari berbagai program studi di ITERA.",
         "daftar": "https://docs.google.com/forms/d/e/1FAIpQLSdZUiocZti98PYrYZ3dqNeCHGY9ch8nWAxco4PlGCt7KJGkw/formResponse",
         "syarat": "https://drive.google.com/drive/folders/1pEOCA_eEs6cmfIsxZkNQg8rT47QSS-wU",
         "status": "text-goldish"
+    },
+    {
+        "judul": "Riuh Wisuda Terpusat",
+        "tanggal": "29 - 2 Mei 2023",
+        "details1":"Kegiatan ini adalah kegiatan yang diadakan secara terpusat atau satu komando dalam satu kesatuan seluruh elemen organisasi mahasiswa yang ada di ITERA, sebagai arak-arakan wisuda yang dibuat dalam rangka mengapresiasi para wisudawan/wisudawati.",
+        "details2": "",
+        "daftar": "https://bit.ly/PendaftaranKetuplakRiuhWisudaTerpusat2023",
+        "syarat": "https://bit.ly/SyaratdanKetentuanCaketuplakRiuhWisudaTerpusat2023",
+        "status": "text-goldish"
+    },
+    {
+        "judul": "Duta ITERA",
+        "tanggal": "COMING SOON...",
+        "details1":"",
+        "details2": "",
+        "daftar": "",
+        "syarat": "",
+        "status": "text-gray-400"
     },
     {
         "judul": "PPLK ITERA",
@@ -46,15 +96,6 @@ const items = [
     {
         "judul": "LKMM-TD",
         "tanggal": "CLOSED...",
-        "details1":"",
-        "details2": "",
-        "daftar": "",
-        "syarat": "",
-        "status": "text-gray-400"
-    },
-    {
-        "judul": "LKMM-TD",
-        "tanggal": "COMING SOON...",
         "details1":"",
         "details2": "",
         "daftar": "",
@@ -78,54 +119,9 @@ export default function App() {
         </div>
 
         {/* <!-- Link --> */}
-        <div className="py-2 w-4/5 justify-center flex">
-            <a href="https://twitter.com/km_itera" target="_blank" className="w-3/5 max-[450px]:w-full justify-center flex" rel="noreferrer">
-                <button className="w-full transition-all bg-transparent hover:bg-goldish hover:shadow-slate-100 hover:shadow-md hover:-translate-y-2 text-goldish font-semibold hover:text-slate-900 py-2 px-4 border border-goldish hover:border-transparent rounded">
-                    <FontAwesomeIcon icon={faTwitter} className='px-2'/>
-                    Twitter
-                </button>
-            </a>
-        </div>
-        <div className="py-2 w-4/5 justify-center flex">
-            <a href="https://instagram.com/km_itera" target="_blank" className="w-3/5 max-[450px]:w-full justify-center flex" rel="noreferrer">
-                <button className="w-full transition-all bg-transparent hover:bg-goldish hover:shadow-slate-100 hover:shadow-md hover:-translate-y-2 text-goldish font-semibold hover:text-slate-900 py-2 px-4 border border-goldish hover:border-transparent rounded">
-                    <FontAwesomeIcon icon={faInstagram} className="px-2"/>
-                    Instagram
-                </button>
-            </a>
-        </div>
-        <div className="py-2 w-4/5 justify-center flex">
-            <a href="https://youtube.com/@KMITERA" target="_blank" className="w-3/5 max-[450px]:w-full justify-center flex" rel="noreferrer">
-                <button className="w-full transition-all bg-transparent hover:bg-goldish hover:shadow-slate-100 hover:shadow-md hover:-translate-y-2 text-goldish font-semibold hover:text-slate-900 py-2 px-4 border border-goldish hover:border-transparent rounded">
-                    <FontAwesomeIcon icon={faYoutube} className="px-2"/>
-                    Youtube
-                </button>
-            </a>
-        </div>
-        <div className="py-2 w-4/5 justify-center flex">
-            <a href="https://spotify.link/HBLxo56aUyb" target="_blank" className="w-3/5 max-[450px]:w-full justify-center flex" rel="noreferrer">
-                <button className="w-full transition-all bg-transparent hover:bg-goldish hover:shadow-slate-100 hover:shadow-md hover:-translate-y-2 text-goldish font-semibold hover:text-slate-900 py-2 px-4 border border-goldish hover:border-transparent rounded">
-                    <FontAwesomeIcon icon={faSpotify} className="px-2"/>
-                    Spotify
-                </button>
-            </a>
-        </div>
-        <div className="py-2 w-4/5 justify-center flex">
-            <a href="https://wa.me/6281286216233" target="_blank" className="w-3/5 max-[450px]:w-full justify-center flex" rel="noreferrer">
-                <button className="w-full transition-all bg-transparent hover:bg-goldish hover:shadow-slate-100 hover:shadow-md hover:-translate-y-2 text-goldish font-semibold hover:text-slate-900 py-2 px-4 border border-goldish hover:border-transparent rounded">
-                    <FontAwesomeIcon icon={faWhatsapp} className="px-2"/>
-                    Advokesma (Sabrina)
-                </button>
-            </a>
-        </div>
-        <div className="py-2 w-4/5 justify-center flex">
-            <a href="https://wa.me/6287818874228" target="_blank" className="w-3/5 max-[450px]:w-full justify-center flex" rel="noreferrer">
-                <button className="w-full transition-all bg-transparent hover:bg-goldish hover:shadow-slate-100 hover:shadow-md hover:-translate-y-2 text-goldish font-semibold hover:text-slate-900 py-2 px-4 border border-goldish hover:border-transparent rounded">
-                    <FontAwesomeIcon icon={faWhatsapp} className="px-2"/>
-                    Narahubung (Moza)
-                </button>
-            </a>
-        </div>
+        {listed.map((list, index) => (
+            <BtnList key={index} list={list} />
+        ))}
         {/* <!-- End Link --> */}
 
         {/* <!-- Accordion --> */}
