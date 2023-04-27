@@ -62,7 +62,7 @@ const items = [
         "tanggal": "28 April - 2 Mei 2023",
         "details1":"LITERA atau Liga Ilmiah ITERA merupakan suatu ajang perlombaan ilmiah terbesar yang dilaksanakan oleh Kementerian Pendidikan, Riset, dan Teknologi Kabinet Wangsabatih KMITERA pada tahun ini. LITERA dilaksanakan sebagai kegiatan kompetisi keilmiahan di lingkungan kampus ITERA yang bertujuan dalam menumbuhkan rasa berpikir kritis serta jiwa kompetitif pada mahasiswa/i di ITERA dan yang diakhiri oleh acara puncak berupa Malam Apresiasi bagi seluruh peserta LITERA.",
         "details2": "LITERA tidak hanya bertujuan untuk menjadi tempat para mahasiswa/i ITERA dalam meningkatkan kemampuan kognitif namun juga dapat menjadi tempat silaturahmi serta mengembangkan menjalin rasa kekeluargaan bagi mahasiswa/i dari berbagai program studi di ITERA.",
-        "daftar": "https://docs.google.com/forms/d/e/1FAIpQLSdZUiocZti98PYrYZ3dqNeCHGY9ch8nWAxco4PlGCt7KJGkw/formResponse",
+        "daftar": "https://docs.google.com/forms/d/e/1FAIpQLSdZUiocZti98PYrYZ3dq-NeCHGY9ch8nWAxco4PlGCt7KJGkw/viewform?usp=sf_link",
         "syarat": "https://drive.google.com/drive/folders/1pEOCA_eEs6cmfIsxZkNQg8rT47QSS-wU",
         "status": "text-goldish"
     },
