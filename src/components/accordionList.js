@@ -1,6 +1,28 @@
 import React from 'react';
 
 function AccordionList({ item }) {
+    let checker;
+    if(item.daftar){
+        checker = <div>
+        <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
+            Lakukan pendaftaran pada link berikut    
+        </p>
+        <span className="text-gray-300 flex flex-row items-center">
+            <a href={item.daftar} target='_blank' rel='noreferrer' className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
+                <button className="w-full max-sm:text-sm bg-transparent hover:bg-goldish text-goldish font-semibold hover:text-slate-900 mt-2 py-2 px-4 max-sm:px-1 border border-goldish hover:border-transparent rounded">
+                    Daftar
+                </button>
+            </a> 
+            <a href={item.syarat} target='_blank' rel='noreferrer' className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
+                <button className="w-full max-sm:text-sm bg-transparent hover:bg-goldish text-goldish font-semibold hover:text-slate-900 mt-2 py-2 px-4 max-sm:px-1 border border-goldish hover:border-transparent rounded">
+                    Syarat
+                </button>
+            </a> 
+        </span>
+        </div>;
+    }else{
+        checker = <span className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">Stay tune sobat KM...</span>;
+    }
     return (
         <div className="py-5 w-full">
         <details className="group w-full border-b border-goldish pb-3">
@@ -21,21 +43,7 @@ function AccordionList({ item }) {
                     <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
                     {item.details2}
                     </p>
-                    <p className="mb-2 text-gray-300 selection:bg-goldish selection:text-gray-900 max-sm:text-sm">
-                        Lakukan pendaftaran pada link berikut    
-                    </p>
-                    <span className="text-gray-300 flex flex-row items-center">
-                        <a href={item.daftar} target='_blank' rel='noreferrer' className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
-                            <button className="w-full max-sm:text-sm bg-transparent hover:bg-goldish text-goldish font-semibold hover:text-slate-900 mt-2 py-2 px-4 max-sm:px-1 border border-goldish hover:border-transparent rounded">
-                                Daftar
-                            </button>
-                        </a> 
-                        <a href={item.syarat} target='_blank' rel='noreferrer' className="text-blue-600 dark:text-blue-500 hover:underline w-3/12 mx-1">
-                            <button className="w-full max-sm:text-sm bg-transparent hover:bg-goldish text-goldish font-semibold hover:text-slate-900 mt-2 py-2 px-4 max-sm:px-1 border border-goldish hover:border-transparent rounded">
-                                Syarat
-                            </button>
-                        </a> 
-                    </span>
+                    {checker}
                 </div>
             </div>
         </details>
