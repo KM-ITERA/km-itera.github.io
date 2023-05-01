@@ -49,12 +49,12 @@ const listed = [
 ];
 const items = [
     {
-        "judul": "ITERA Open", 
-        "tanggal": "26 - 30 April 2023", 
-        "details1": 'ITERA OPEN merupakan pesta olahraga yang diselenggarakan oleh Institut Teknologi Sumatera, dengan menargetkan mahasiswa dan mahasiswi dari perguruan tinggi yang ada di wilayah lampung dan sumatera, untuk turut serta berpartisipasi di dalam kompetisi. Kegiatan hadir sebagai salah satu upaya memperkenalkan kampus Institut Teknologi Sumatera sebagai kampus muda yang mendukung penuh keolahragaan.',
-        "details2": 'Dengan ini, ITERA OPEN diharapkan dapat menjadi momentum dalam menjalin tali silaturahmi serta ajang kompetisi antarkampus, yang diharapkan dapat membawa nama baik dan citra kampus masing-masing dengan menjunjung tinggi nilai sportifitas dan profesionalitas selama berkompetisi.',
-        "daftar": "https://bit.ly/pendaftaranketuplakITERAOPEN2023",
-        "syarat": "https://bit.ly/SyaratdanKetentuanCalonKetuaPelaksanaITERAOPEN2023",
+        "judul": "Duta ITERA",
+        "tanggal": "1 - 3 Mei 2023",
+        "details1":"Duta ITERA merupakan ajang pemilihan mahasiswa dan mahasiswi terbaik yang ada di ITERA yang dimana bertujuan untuk mencari mahasiswa/i dari ITERA yang mampu mengenalkan ITERA ke masyarakat luas serta menjadi FACE OF ITERA itu sendiri dan role model bagi mahasiswa/i lainnya dengan kriteria yang sudah ditentukan",
+        "details2": "",
+        "daftar": "https://bit.ly/FormPendaftaranKetuaPelaksanaDUTA-ITERA2023",
+        "syarat": "https://bit.ly/SyaratDanKetentuanKetuaPelaksanaDuta-ITERA2023",
         "status": "text-goldish"
     },
     {
@@ -68,21 +68,12 @@ const items = [
     },
     {
         "judul": "Riuh Wisuda Terpusat",
-        "tanggal": "29 - 2 Mei 2023",
+        "tanggal": "29 April - 2 Mei 2023",
         "details1":"Kegiatan ini adalah kegiatan yang diadakan secara terpusat atau satu komando dalam satu kesatuan seluruh elemen organisasi mahasiswa yang ada di ITERA, sebagai arak-arakan wisuda yang dibuat dalam rangka mengapresiasi para wisudawan/wisudawati.",
         "details2": "",
         "daftar": "https://bit.ly/PendaftaranKetuplakRiuhWisudaTerpusat2023",
         "syarat": "https://bit.ly/SyaratdanKetentuanCaketuplakRiuhWisudaTerpusat2023",
         "status": "text-goldish"
-    },
-    {
-        "judul": "Duta ITERA",
-        "tanggal": "COMING SOON...",
-        "details1":"",
-        "details2": "",
-        "daftar": "",
-        "syarat": "",
-        "status": "text-gray-400"
     },
     {
         "judul": "PPLK ITERA",
@@ -98,6 +89,15 @@ const items = [
         "tanggal": "CLOSED...",
         "details1":"",
         "details2": "",
+        "daftar": "",
+        "syarat": "",
+        "status": "text-gray-400"
+    },
+    {
+        "judul": "ITERA Open", 
+        "tanggal": "CLOSED...", 
+        "details1": '',
+        "details2": '',
         "daftar": "",
         "syarat": "",
         "status": "text-gray-400"
