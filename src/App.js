@@ -58,6 +58,15 @@ const items = [
         "status": "text-goldish"
     },
     {
+        "judul": "ITERA Open", 
+        "tanggal": "26 April - 2 Mei 2023", 
+        "details1": 'ITERA OPEN merupakan pesta olahraga yang diselenggarakan oleh Institut Teknologi Sumatera, dengan menargetkan mahasiswa dan mahasiswi dari perguruan tinggi yang ada di wilayah lampung dan sumatera, untuk turut serta berpartisipasi di dalam kompetisi. Kegiatan hadir sebagai salah satu upaya memperkenalkan kampus Institut Teknologi Sumatera sebagai kampus muda yang mendukung penuh keolahragaan.',
+        "details2": 'Dengan ini, ITERA OPEN diharapkan dapat menjadi momentum dalam menjalin tali silaturahmi serta ajang kompetisi antarkampus, yang diharapkan dapat membawa nama baik dan citra kampus masing-masing dengan menjunjung tinggi nilai sportifitas dan profesionalitas selama berkompetisi.',
+        "daftar": "https://bit.ly/pendaftaranketuplakITERAOPEN2023",
+        "syarat": "https://bit.ly/SyaratdanKetentuanCalonKetuaPelaksanaITERAOPEN2023",
+        "status": "text-goldish"
+    },
+    {
         "judul": "Liga Ilmiah ITERA (LITERA)",
         "tanggal": "28 April - 2 Mei 2023",
         "details1":"LITERA atau Liga Ilmiah ITERA merupakan suatu ajang perlombaan ilmiah terbesar yang dilaksanakan oleh Kementerian Pendidikan, Riset, dan Teknologi Kabinet Wangsabatih KMITERA pada tahun ini. LITERA dilaksanakan sebagai kegiatan kompetisi keilmiahan di lingkungan kampus ITERA yang bertujuan dalam menumbuhkan rasa berpikir kritis serta jiwa kompetitif pada mahasiswa/i di ITERA dan yang diakhiri oleh acara puncak berupa Malam Apresiasi bagi seluruh peserta LITERA.",
@@ -89,15 +98,6 @@ const items = [
         "tanggal": "CLOSED...",
         "details1":"",
         "details2": "",
-        "daftar": "",
-        "syarat": "",
-        "status": "text-gray-400"
-    },
-    {
-        "judul": "ITERA Open", 
-        "tanggal": "CLOSED...", 
-        "details1": '',
-        "details2": '',
         "daftar": "",
         "syarat": "",
         "status": "text-gray-400"
