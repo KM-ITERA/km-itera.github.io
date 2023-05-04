@@ -4,8 +4,11 @@ import {
     faInstagram,
     faSpotify,
     faYoutube,
-    faWhatsapp
+    faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import {
+    faShareNodes
+} from "@fortawesome/free-solid-svg-icons";
 import {
     logoITERA,
     logoKM
@@ -18,32 +21,38 @@ const listed = [
     {
         "link": "https://twitter.com/km_itera",
         "icon": faTwitter,
-        "tittle": "Twitter"
+        "tittle": "Twitter",
+        "share": faShareNodes
     },
     {
         "link": "https://instagram.com/km_itera",
         "icon": faInstagram,
-        "tittle": "Instagram"
+        "tittle": "Instagram",
+        "share": faShareNodes
     },
     {
         "link": "https://youtube.com/@KMITERA",
         "icon": faYoutube,
-        "tittle": "Youtube"
+        "tittle": "Youtube",
+        "share": faShareNodes
     },
     {
         "link": "https://spotify.link/HBLxo56aUyb",
         "icon": faSpotify,
-        "tittle": "Spotify"
+        "tittle": "Spotify",
+        "share": faShareNodes
     },
     {
         "link": "https://wa.me/6281286216233",
         "icon": faWhatsapp,
-        "tittle": "Advokesma (Sabrina)"
+        "tittle": "Advokesma (Sabrina)",
+        "share": faShareNodes
     },
     {
         "link": "https://wa.me/6287818874228",
         "icon": faWhatsapp,
-        "tittle": "Narahubung (Moza)"
+        "tittle": "Narahubung (Moza)",
+        "share": faShareNodes
     },
 ];
 const items = [
