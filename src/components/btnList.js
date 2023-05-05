@@ -10,13 +10,13 @@ function BtnList({list}){
                     {list.tittle}
                 </button>
             </a>
-                <button
-                    onClick={() => {
-                        window.open(`whatsapp://send?text=${list.share}`, "_blank");
-                    }}
-                    className="transition-all bg-transparent hover:bg-goldish hover:shadow-slate-100 hover:shadow-md hover:-translate-y-2 text-goldish font-semibold hover:text-slate-900 py-2 px-4 mx-1 border border-goldish hover:border-transparent rounded">
-                    <FontAwesomeIcon icon={list.share} className='px-2'/>
-                </button>
+            <button
+                onClick={() => {
+                    window.open(`whatsapp://send?text=${list.link}`, "_blank");
+                }}
+                className="transition-all bg-transparent hover:bg-goldish hover:shadow-slate-100 hover:shadow-md hover:-translate-y-2 text-goldish font-semibold hover:text-slate-900 py-2 px-2 mx-1 border border-goldish hover:border-transparent rounded">
+                <FontAwesomeIcon icon={list.share} className='px-2'/>
+            </button>
         </div>
 )}; 
 export default BtnList;
