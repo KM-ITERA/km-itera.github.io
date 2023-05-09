@@ -57,12 +57,12 @@ const listed = [
 ];
 const items = [
     {
-        "judul": "ITERA Mengajar",
-        "tanggal": "1 - 8 Mei 2023",
-        "details1":"ITERA Mengajar merupakan suatu program dibawah naungan Kementerian Sosial Masyarakat yang fokus pada bidang atau pada sekmentasi sosial dan Pendidikan sebagai bentuk kegiatan untuk mengatasi ketimpangan Pendidikan terutama di daerah Lampung.",
-        "details2": "ITERA Mengajar bertujuan untuk memberikan pendidikan yang ditujukan kepada para pelajar SD hingga SMA,pemuda karang taruna,hingga masyarakat. Program ITERA Mengajar mencoba mengembangkan aspek kemanusiaan dengan membantu masyarakat dengan terjun langsung pada bidang pendidikan, pemberdayaan masyarakat dan lingkungan.",
-        "daftar": "https://bit.ly/PendaftaranKetuplakITERAMENGAJAR2023",
-        "syarat": "http://bit.ly/SyaratdanKetentuanCalonKetuaPelaksanaIteraMengajar2023",
+        "judul": "Duta ITERA",
+        "tanggal": "1 - 6 Mei 2023(Extended)",
+        "details1":"Duta ITERA merupakan ajang pemilihan mahasiswa dan mahasiswi terbaik yang ada di ITERA yang dimana bertujuan untuk mencari mahasiswa/i dari ITERA yang mampu mengenalkan ITERA ke masyarakat luas serta menjadi FACE OF ITERA itu sendiri dan role model bagi mahasiswa/i lainnya dengan kriteria yang sudah ditentukan",
+        "details2": "",
+        "daftar": "https://bit.ly/FormPendaftaranKetuaPelaksanaDUTA-ITERA2023",
+        "syarat": "https://bit.ly/SyaratDanKetentuanKetuaPelaksanaDuta-ITERA2023",
         "status": "text-goldish"
     },
     {
@@ -111,7 +111,7 @@ const items = [
         "status": "text-gray-400"
     },
     {
-        "judul": "Duta ITERA",
+        "judul": "ITERA Mengajar",
         "tanggal": "CLOSED...",
         "details1":"",
         "details2": "",
