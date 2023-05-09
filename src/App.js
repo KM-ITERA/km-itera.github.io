@@ -123,8 +123,9 @@ const items = [
 
 export default function App() {
     return (
-    <div className="App flex items-center flex-col py-5 bg-slate-800 bg-no-repeat bg-fixed bg-cover" id='container'>
-        
+    <div className="App flex items-center flex-col bg-slate-800 bg-no-repeat bg-fixed bg-cover" id='container'>
+        <div className='flex items-center flex-col py-5 w-full min-h-full bg-glass drop-shadow-[0_8px_32px_0_rgba(255, 255, 255, 0.37)] backdrop-blur-sm'>
+
         <div className="w-full relative flex justify-between px-10 min-[800px]:px-28 items-center py-4">
             <a href="http://itera.ac.id " target="_blank" rel="noreferrer">
                 <img src={logoITERA} className="w-12 min-[800px]:w-20 rounded-full shadow shadow-goldish hover:animate-pulse" alt='logoITERA' draggable="false"/>
@@ -152,6 +153,8 @@ export default function App() {
 	        </div>
         </div>
         {/* <!-- End Accordion --> */}
+
+        </div>
     </div>
 
     );

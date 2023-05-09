@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       colors: {
           goldish: '#e2c275',
-      }
+          glass: 'rgba(44, 81, 182, 0.15)',
+      },
       }
   },
   plugins: [
