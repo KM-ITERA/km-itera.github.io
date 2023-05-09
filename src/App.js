@@ -66,24 +66,6 @@ const items = [
         "status": "text-goldish"
     },
     {
-        "judul": "Duta ITERA",
-        "tanggal": "1 - 6 Mei 2023",
-        "details1":"Duta ITERA merupakan ajang pemilihan mahasiswa dan mahasiswi terbaik yang ada di ITERA yang dimana bertujuan untuk mencari mahasiswa/i dari ITERA yang mampu mengenalkan ITERA ke masyarakat luas serta menjadi FACE OF ITERA itu sendiri dan role model bagi mahasiswa/i lainnya dengan kriteria yang sudah ditentukan",
-        "details2": "",
-        "daftar": "https://bit.ly/FormPendaftaranKetuaPelaksanaDUTA-ITERA2023",
-        "syarat": "https://bit.ly/SyaratDanKetentuanKetuaPelaksanaDuta-ITERA2023",
-        "status": "text-goldish"
-    },
-    {
-        "judul": "Riuh Wisuda Terpusat",
-        "tanggal": "29 April - 4 Mei 2023",
-        "details1":"Kegiatan ini adalah kegiatan yang diadakan secara terpusat atau satu komando dalam satu kesatuan seluruh elemen organisasi mahasiswa yang ada di ITERA, sebagai arak-arakan wisuda yang dibuat dalam rangka mengapresiasi para wisudawan/wisudawati.",
-        "details2": "",
-        "daftar": "https://bit.ly/PendaftaranKetuplakRiuhWisudaTerpusat2023",
-        "syarat": "https://bit.ly/SyaratdanKetentuanCaketuplakRiuhWisudaTerpusat2023",
-        "status": "text-goldish"
-    },
-    {
         "judul": "PPLK ITERA",
         "tanggal": "CLOSED...",
         "details1":"",
@@ -112,6 +94,24 @@ const items = [
     },
     {
         "judul": "Liga Ilmiah ITERA (LITERA)",
+        "tanggal": "CLOSED...",
+        "details1":"",
+        "details2": "",
+        "daftar": "",
+        "syarat": "",
+        "status": "text-gray-400"
+    },
+    {
+        "judul": "Riuh Wisuda Terpusat",
+        "tanggal": "CLOSED...",
+        "details1":"",
+        "details2": "",
+        "daftar": "",
+        "syarat": "",
+        "status": "text-gray-400"
+    },
+    {
+        "judul": "Duta ITERA",
         "tanggal": "CLOSED...",
         "details1":"",
         "details2": "",
