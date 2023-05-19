@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/linktree/static/css/main.6f361c30.css",
-    "main.js": "/linktree/static/js/main.7dd06661.js",
-    "static/js/496.56eb462c.chunk.js": "/linktree/static/js/496.56eb462c.chunk.js",
-    "static/media/KM_logo.png": "/linktree/static/media/KM_logo.20edcd1314fa881aa293.png",
-    "static/media/BluePurpMobile.webp": "/linktree/static/media/BluePurpMobile.4810815b99577e7ed896.webp",
-    "static/media/logoKM_320x320.png": "/linktree/static/media/logoKM_320x320.d3c397a4cfae7a36d2d2.png",
-    "static/media/BluePurpbknd.webp": "/linktree/static/media/BluePurpbknd.6f2cf4ad3c9424ccceaf.webp",
-    "static/media/logoItera_320x320.png": "/linktree/static/media/logoItera_320x320.74608362f7818e7ad70a.png",
-    "index.html": "/linktree/index.html",
-    "main.6f361c30.css.map": "/linktree/static/css/main.6f361c30.css.map",
-    "main.7dd06661.js.map": "/linktree/static/js/main.7dd06661.js.map",
-    "496.56eb462c.chunk.js.map": "/linktree/static/js/496.56eb462c.chunk.js.map"
+    "main.css": "/static/css/main.baec2197.css",
+    "main.js": "/static/js/main.772ce305.js",
+    "static/js/496.56eb462c.chunk.js": "/static/js/496.56eb462c.chunk.js",
+    "static/media/KM_logo.png": "/static/media/KM_logo.20edcd1314fa881aa293.png",
+    "static/media/BluePurpMobile.webp": "/static/media/BluePurpMobile.4810815b99577e7ed896.webp",
+    "static/media/logoKM_320x320.png": "/static/media/logoKM_320x320.d3c397a4cfae7a36d2d2.png",
+    "static/media/BluePurpbknd.webp": "/static/media/BluePurpbknd.6f2cf4ad3c9424ccceaf.webp",
+    "static/media/logoItera_320x320.png": "/static/media/logoItera_320x320.74608362f7818e7ad70a.png",
+    "index.html": "/index.html",
+    "main.baec2197.css.map": "/static/css/main.baec2197.css.map",
+    "main.772ce305.js.map": "/static/js/main.772ce305.js.map",
+    "496.56eb462c.chunk.js.map": "/static/js/496.56eb462c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f361c30.css",
-    "static/js/main.7dd06661.js"
+    "static/css/main.baec2197.css",
+    "static/js/main.772ce305.js"
   ]
 }
