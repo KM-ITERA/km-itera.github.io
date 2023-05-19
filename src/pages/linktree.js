@@ -7,7 +7,8 @@ import {
     faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import {
-    faShareNodes
+    faShareNodes,
+    faPeopleCarry
 } from "@fortawesome/free-solid-svg-icons";
 import {
     logoITERA,
@@ -52,6 +53,12 @@ const listed = [
         "link": "https://wa.me/6287818874228",
         "icon": faWhatsapp,
         "tittle": "Narahubung (Moza)",
+        "share": faShareNodes
+    },
+    {
+        "link": "https://km-itera.my.id/operasional",
+        "icon": faPeopleCarry,
+        "tittle": "Operasional",
         "share": faShareNodes
     },
 ];
