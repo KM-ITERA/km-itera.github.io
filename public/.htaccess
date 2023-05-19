@@ -9,3 +9,5 @@
     RewriteRule . /index.html [L]
 
 </IfModule>
+<!-- Copyright
+© 2023 Kabinet KM ITERA -->

@@ -12,3 +12,5 @@ function App(){
     );
 }
 export default App;
+
+// Copyright © 2023 Kabinet KM ITERA
