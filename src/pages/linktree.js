@@ -12,7 +12,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import {
     logoITERA,
-    logoKM
+    logoKM,
+    logoWangsabatih
 } from '../img/index'
 import { AccordionList, BtnList, InstallPWA } from '../components/index';
 import '../App.css';
@@ -53,6 +54,12 @@ const listed = [
         "link": "https://wa.me/6287818874228",
         "icon": faWhatsapp,
         "tittle": "Narahubung (Moza)",
+        "share": faShareNodes
+    },
+    {
+        "link": "https://wa.me/6282376858332",
+        "icon": faWhatsapp,
+        "tittle": "Operasional (Jovi)",
         "share": faShareNodes
     },
     {
@@ -138,10 +145,16 @@ export default function Linktree() {
             <a href="http://itera.ac.id " target="_blank" rel="noreferrer">
                 <img src={logoITERA} className="w-12 min-[800px]:w-20 rounded-full shadow shadow-goldish hover:animate-pulse" alt='logoITERA' draggable="false"/>
             </a>
-            <p className="text-goldish text-lg min-[800px]:text-2xl text-center font-bold">Kabinet Wangsabatih</p>
+            <div className='flex justify-center items-center'>
+                <img src={logoWangsabatih} className="w-24 min-[800px]:w-40 drop-shadow shadow-goldish hover:animate-pulse" alt='logoWangsabatih' draggable="false"/>
+            </div>
             <a href="http://km.itera.ac.id" target="_blank" rel="noreferrer">
                 <img src={logoKM} className="w-12 min-[800px]:w-20 rounded-full shadow shadow-goldish hover:animate-pulse" alt='logoKM' draggable="false"/>
             </a>
+        </div>
+
+        <div className='pb-5'>
+            <p className="text-goldish text-lg min-[800px]:text-2xl text-center font-bold">Kabinet Wangsabatih</p>
         </div>
 
         {/* <!-- Link --> */}
